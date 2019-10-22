@@ -1,0 +1,12 @@
+title: qaStaHvIS wa' ram loSSaD Hugh SIjlaH qetbogh loD
+description:
+show_downloads: false
+google_analytics:
+theme: jekyll-theme-cayman
+permalink: /:title
+defaults:
+  -
+    scope:
+      path: "notes" 
+    values:
+      layout: "default"
