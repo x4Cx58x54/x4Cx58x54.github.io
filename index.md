@@ -7,95 +7,95 @@ title: Home
 
 ### Mathematics
 
-[Essence of Linear Algebra](/notes/mathematics/linear-algebra/essence-of-linear-algebra.html)
+[Essence of Linear Algebra](/notes/mathematics/linear-algebra/essence-of-linear-algebra)
 
-[3Blue1Brown](/notes/mathematics/3b1b/3b1b.html)
+[3Blue1Brown](/notes/mathematics/3b1b/3b1b)
 
-[Complex Analysis](/notes/mathematics/complex-analysis/complex-analysis.html)
+[Complex Analysis](/notes/mathematics/complex-analysis/complex-analysis)
 
-[Integral Transforms](/notes/mathematics/integral-transforms/integral-transforms.html)
+[Integral Transforms](/notes/mathematics/integral-transforms/integral-transforms)
 
-[Calculus](/notes/mathematics/calculus/calculus.html)
+[Calculus](/notes/mathematics/calculus/calculus)
 
-[Probability Theory](/notes/mathematics/probability-theory/probability-theory.html)
+[Probability Theory](/notes/mathematics/probability-theory/probability-theory)
 
-[Memos](/notes/mathematics/memos/memos.html)
+[Memos](/notes/mathematics/memos/memos)
 
 
 ### Artificial Intelligence
 
-[Artificial Intelligence with Python](/notes/artificial-intelligence/ai-with-python/ai-with-python.html)
+[Artificial Intelligence with Python](/notes/artificial-intelligence/ai-with-python/ai-with-python)
 
-[Deep Learning](/notes/artificial-intelligence/deep-learning/deep-learning.html)
+[Deep Learning](/notes/artificial-intelligence/deep-learning/deep-learning)
 
-[机器学习](notes/artificial-intelligence/machine-learning/machine-learning.html)
+[机器学习](notes/artificial-intelligence/machine-learning/machine-learning)
 
 
 ### Computer Organization
 
-[Computer Organization](notes/computer-organization/computer-organization.html)
+[Computer Organization](notes/computer-organization/computer-organization)
 
 
 ### Computer Network
 
-[Computer Networking: A Top Down Approach](/notes/computer-network/computer-networking-a-top-down-approach.html)
+[Computer Networking: A Top Down Approach](/notes/computer-network/computer-networking-a-top-down-approach)
 
 
 ### Control Theory
 
-[Classical Control](/notes/control-theory/classical-control/classical-control.html)
+[Classical Control](/notes/control-theory/classical-control/classical-control)
 
 
 ### Electromagnetics
 
-[Electromagnetics](/notes/electromagnetics/electromagnetics.html)
+[Electromagnetics](/notes/electromagnetics/electromagnetics)
 
 
 ### Project Reviews
 
-[Network Planning Review](/notes/project-reviews/network-planning-review/network-planning-review.html)
+[Network Planning Review](/notes/project-reviews/network-planning-review/network-planning-review)
 
-[B Scan Ultrasonography Analysis Review](/notes/project-reviews/b-ultrasonography-review/b-ultrasonography-review.html)
+[B Scan Ultrasonography Analysis Review](/notes/project-reviews/b-ultrasonography-review/b-ultrasonography-review)
 
 
 ### Computer Programming
 
-[The Practice of Programming](/notes/computer-programming/the-practice-of-programming.html)
+[The Practice of Programming](/notes/computer-programming/the-practice-of-programming)
 
 
 ### C
 
-[C Primer Plus](/notes/c-notes/c-primer-plus.html)
+[C Primer Plus](/notes/c-notes/c-primer-plus)
 
 
 ### C++
 
-[C++ Notes](/notes/cpp-notes/cpp-notes.html)
+[C++ Notes](/notes/cpp-notes/cpp-notes)
 
 
 ### Python
 
-[Python 3 Object-Oriented Programming](/notes/python-notes/python-3-object-oriented-programming.html)
+[Python 3 Object-Oriented Programming](/notes/python-notes/python-3-object-oriented-programming)
 
 
 ### LaTeX
 
-[Fundamentals](notes\LaTeX\fundamentals.html)
+[LaTeX Fundamentals](notes\LaTeX\fundamentals)
 
-[Maths](notes\LaTeX\maths.html)
+[LaTeX Maths](notes\LaTeX\maths)
 
 
 ### HTML + CSS + Javascript
 
-[HTML Fundamentals](/notes/javascript-notes/HTML-fundamentals.html)
+[HTML Fundamentals](/notes/javascript-notes/HTML-fundamentals)
 
-[CSS Fundamentals](/notes/javascript-notes/CSS-fundamentals.html)
+[CSS Fundamentals](/notes/javascript-notes/CSS-fundamentals)
 
-[JavaScript: The Definitive Guide](/notes/javascript-notes/javascript-the-definitive-guide.html)
+[JavaScript: The Definitive Guide](/notes/javascript-notes/javascript-the-definitive-guide)
 
 
 ### Regex
 
-[Introducing Regular Expressions](/notes/regex/introducing-regular-expressions.html)
+[Introducing Regular Expressions](/notes/regex/introducing-regular-expressions)
 
-[Regular Expressions Cookbook](/notes/regex/regular-expressions-cookbook.html)
+[Regular Expressions Cookbook](/notes/regex/regular-expressions-cookbook)
