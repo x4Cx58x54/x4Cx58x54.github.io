@@ -1,3 +1,7 @@
+---
+title: Magnetic Field
+---
+
 # Magnetic Field
 
 *1*  

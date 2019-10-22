@@ -1,3 +1,7 @@
+---
+title: The Practice of Programming
+---
+
 # The Practice of Programming
 
 >*Brian W. Kernighan, Rob Pike*  

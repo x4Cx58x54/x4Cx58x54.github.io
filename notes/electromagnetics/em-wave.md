@@ -1,3 +1,7 @@
+---
+title: Electromagnetic Wave
+---
+
 # Electromagnetic Wave
 
 *1*  

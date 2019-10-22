@@ -1,3 +1,7 @@
+---
+title: Regular Expressions Cookbook
+---
+
 # Regular Expressions Cookbook
 
 *Second Edition*  

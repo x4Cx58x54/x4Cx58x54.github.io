@@ -1,3 +1,7 @@
+---
+title: Random Variables
+---
+
 # Random Variables
 
 <img src="assets/020_rv_1.jpg"/>

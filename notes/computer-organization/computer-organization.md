@@ -1,3 +1,7 @@
+---
+title: Computer Organization
+---
+
 # Computer Organization
 
 ## 概论

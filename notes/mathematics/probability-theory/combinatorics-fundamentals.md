@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Combinatorics Fundamentals
 ---
 
 # Combinatorics Fundamentals

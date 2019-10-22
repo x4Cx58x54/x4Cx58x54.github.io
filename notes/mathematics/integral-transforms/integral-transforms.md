@@ -1,5 +1,5 @@
 ---
-layout: default
+title: 积分变换
 ---
 
 # 积分变换

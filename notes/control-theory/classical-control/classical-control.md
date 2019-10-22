@@ -1,3 +1,7 @@
+---
+title: Classical Control Theory
+---
+
 # Classical Control Theory
 
 ## Dynamic Response

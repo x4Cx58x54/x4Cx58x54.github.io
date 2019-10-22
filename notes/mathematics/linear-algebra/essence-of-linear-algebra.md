@@ -1,5 +1,5 @@
 ---
-layout: default
+title: Essence of Linear Algebra
 ---
 
 # Essence of Linear Algebra

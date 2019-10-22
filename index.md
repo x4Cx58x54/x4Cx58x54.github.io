@@ -1,5 +1,6 @@
 ---
-permalink: "index"
+layout: default
+title: Home
 ---
 
 # qaStaHvIS wa' ram loSSaD Hugh SIjlaH qetbogh loD
@@ -27,7 +28,7 @@ permalink: "index"
 
 [Deep Learning](/notes/artificial-intelligence/deep-learning/deep-learning.html)
 
-[机器学习](notes/artificial-intelligence/machine-learning/machine-learning.md)
+[机器学习](notes/artificial-intelligence/machine-learning/machine-learning.html)
 
 
 ### Computer Organization
@@ -91,13 +92,6 @@ permalink: "index"
 [CSS Fundamentals](/notes/javascript-notes/CSS-fundamentals.html)
 
 [JavaScript: The Definitive Guide](/notes/javascript-notes/javascript-the-definitive-guide.html)
-
-[Node.js](/notes/javascript-notes/node-js.html)
-
-
-### Git
-
-[Git](/notes/git-notes/git-notes.html)
 
 
 ### Regex

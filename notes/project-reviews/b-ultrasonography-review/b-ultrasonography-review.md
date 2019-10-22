@@ -1,4 +1,8 @@
-# B超影像分析总结 | B-scan Ultrasonography Analysis Review
+---
+title: B 超影像分析总结
+---
+
+# B 超影像分析总结 | B-scan Ultrasonography Analysis Review
 
 ## C#
 
@@ -6,7 +10,7 @@
 ```C#
 MessageBox.Show(string text, string caption, MessageBoxButtons buttons, MessageBoxIcon icon);
 ```
-返回`DialogResult`类型。仅有的触发方法。
+返回 `DialogResult` 类型。仅有的触发方法。
 
 #### 静态类
 静态类只包含静态成员并且不可实例化。

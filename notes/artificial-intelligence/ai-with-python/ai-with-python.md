@@ -1,3 +1,7 @@
+---
+title: Artificial Intelligence with Python
+---
+
 # Artificial Intelligence with Python
 
 >*Artificial Intelligence with Python*  

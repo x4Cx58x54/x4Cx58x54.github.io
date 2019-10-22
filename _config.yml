@@ -1,9 +1,8 @@
-show_downloads: false
+encoding: utf-8
 theme: jekyll-theme-cayman
 defaults:
   -
     scope:
-      path: "notes" 
+      path: "" 
     values:
       layout: "default"
-      permalink: /:title

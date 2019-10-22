@@ -1,5 +1,5 @@
 ---
-layout: default
+title: 概率论
 ---
 
 # 概率论

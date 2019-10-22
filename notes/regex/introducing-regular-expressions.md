@@ -1,3 +1,7 @@
+---
+title: Introducing Regular Expressions
+---
+
 # Introducing Regular Expressions
 
 *Michael Fitzgerald*  

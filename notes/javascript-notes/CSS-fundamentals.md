@@ -1,4 +1,8 @@
-# CSS Fundamentals  
+---
+title: CSS Fundamentals
+---
+
+# CSS Fundamentals
 
 *CSS stands for **C**ascading **S**tyle **S**heet*  
 *Function: separate style from content in HTML*  

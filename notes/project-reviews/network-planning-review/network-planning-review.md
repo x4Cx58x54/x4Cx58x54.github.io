@@ -1,4 +1,8 @@
-# 网络计划图绘制 总结 | Network Planning Review
+---
+title: 网络计划图绘制总结
+---
+
+# 网络计划图绘制总结 | Network Planning Review
 
 ## VB.net
 

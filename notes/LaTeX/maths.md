@@ -1,4 +1,8 @@
-# $\LaTeX$ Math
+---
+title: LaTeX Maths
+---
+
+# $\LaTeX$ Maths
 
 ## Fundamentals
 

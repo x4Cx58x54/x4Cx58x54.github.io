@@ -1,3 +1,7 @@
+---
+title: C Primer Plus
+---
+
 # C Primer Plus
 
 >*Sixth Edition*  
