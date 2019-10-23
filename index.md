@@ -80,9 +80,9 @@ title: Home
 
 ### LaTeX
 
-[LaTeX Fundamentals](notes\LaTeX\fundamentals)
+[LaTeX Fundamentals](notes\LaTeX\latex-fundamentals)
 
-[LaTeX Maths](notes\LaTeX\maths)
+[LaTeX Maths](notes\LaTeX\latex-maths)
 
 
 ### HTML + CSS + Javascript

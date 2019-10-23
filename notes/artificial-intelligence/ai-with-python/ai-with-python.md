@@ -11,7 +11,7 @@ title: Artificial Intelligence with Python
 *影印版*  
 *2017 东南大学出版社*  
 *中南大学图书馆*  
-*2019 02 22 - 萍乡，长沙*  
+*2019.2.22 - 萍乡, 长沙*  
 
 ---
 

@@ -2,7 +2,7 @@
 title: LaTeX Fundamentals
 ---
 
-# $\LaTeX$ Fundamentals
+# LaTeX Fundamentals
 
 ## 源文件结构
 ```tex

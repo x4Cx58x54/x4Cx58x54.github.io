@@ -2,7 +2,7 @@
 title: LaTeX Maths
 ---
 
-# $\LaTeX$ Maths
+# LaTeX Maths
 
 ## Fundamentals
 
