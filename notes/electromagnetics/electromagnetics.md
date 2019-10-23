@@ -6,10 +6,10 @@ title: 电磁学
 
 #### 问题集
 
-* [Electric Field](/notes/electromagnetics/electric-field.html)
-* [Magnetic Field](/notes/electromagnetics/magnetic-field.html)
-* [Induction](/notes/electromagnetics/induction.html)
-* [Electromagnetic Wave](/notes/electromagnetics/em-wave.html)
+* [Electric Field](/notes/electromagnetics/electric-field.html){:target="_blank"}
+* [Magnetic Field](/notes/electromagnetics/magnetic-field.html){:target="_blank"}
+* [Induction](/notes/electromagnetics/induction.html){:target="_blank"}
+* [Electromagnetic Wave](/notes/electromagnetics/em-wave.html){:target="_blank"}
 
 ## 静电场
 

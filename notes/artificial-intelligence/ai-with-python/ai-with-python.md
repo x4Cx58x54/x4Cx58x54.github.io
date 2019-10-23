@@ -15,7 +15,7 @@ title: Artificial Intelligence with Python
 
 ---
 
-Source Code: [GitHub-PacktPublishing/Artificial-Intelligence-with-Python](https://github.com/PacktPublishing/Artificial-Intelligence-with-Python)
+Source Code: [GitHub-PacktPublishing/Artificial-Intelligence-with-Python](https://github.com/PacktPublishing/Artificial-Intelligence-with-Python){:target="_blank"}
 
 ---
 

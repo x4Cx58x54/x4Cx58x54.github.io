@@ -5,7 +5,7 @@ title: Deep Learning
 # Deep Learning
 
 >*Ian Goodfellow, Yoshua Bengio, Aaron Courville*  
-*2016, MIT Press, [deeplearningbook.org](https://www.deeplearningbook.org)*  
+*2016, MIT Press, [deeplearningbook.org](https://www.deeplearningbook.org){:target="_blank"}*  
 *2019.7.24 - 8.14,  萍乡*
 
 ---

@@ -6,9 +6,9 @@ title: 概率论
 
 #### 问题集
 
-* [Combinatorics Fundamentals](/notes/mathematics/probability-theory/combinatorics-fundamentals.html)
-* [Events and Probability](/notes/mathematics/probability-theory/events-and-probability.html)
-* [Random Variables](/notes/mathematics/probability-theory/random-variables.html)
+* [Combinatorics Fundamentals](/notes/mathematics/probability-theory/combinatorics-fundamentals.html){:target="_blank"}
+* [Events and Probability](/notes/mathematics/probability-theory/events-and-probability.html){:target="_blank"}
+* [Random Variables](/notes/mathematics/probability-theory/random-variables.html){:target="_blank"}
 
 ---
 
