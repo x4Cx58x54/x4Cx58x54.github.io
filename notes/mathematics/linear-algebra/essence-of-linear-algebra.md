@@ -21,13 +21,13 @@ $$
 
 ## 2 Linear Combinations, Span and Bases 
 
-Linear independent $\Leftrightarrow$ One of the vectors are outside the span of the others.
+Linear independent $\Leftrightarrow$ Any one of the vectors is outside the span of the others.
 
 ## 3 Matrices as Linear Transformations
 
-*Transformation* is a fancy word for *function*, but it suggests **movement**.
+*Transformation* is a fancy word for function, but it suggests **movement**.
 
-*Linear transformation*: all straight lines remains straight, and the the origin remains its place.
+*Linear transformation*: all straight lines remain straight, and the the origin remains its place.
 
 In the lingo, 
 
@@ -40,16 +40,11 @@ which suggests that, **a vector remains the same linear combination of the trans
 Therefore, in two-dimensional space, suppose 
 
 $$
-\mathbf{v}=x\hat{\imath}+y\hat{\jmath}
+\mathbf{v}=x\hat{\imath}+y\hat{\jmath},
 $$
 
-when applying linear transformation $\mathscr{A}$,
-
-$$
-\hat{\imath}\; \xrightarrow[\space]{\text{lands at}} \begin{bmatrix}a_{11}\\ a_{21}\end{bmatrix},\hspace{10mu} \hat{\jmath}\; \xrightarrow[\space]{\text{lands at}} \begin{bmatrix}a_{12} \\ a_{22}\end{bmatrix},
-$$
-  
-and
+when applied linear transformation $\mathscr{A}$, $
+\hat{\imath}$ lands at $[\,a_{11}\ \ a_{21}\,]^\top$, $\hat{\jmath}$ lands at $[\,a_{12}\ \ a_{22}\,]^\top$. That is
 
 $$
 \mathscr{A}(\mathbf{v})=x
@@ -114,9 +109,9 @@ a_{12} \\ a_{22}
 \end{bmatrix}.
 $$
 
-That is the relation between linear transformation and matrix-vector multiplication.
+It is the relation between linear transformation and matrix-vector multiplication.
 
-By recording where the bases land when applying a linear transformation and packaging them into a matrix, we have all the infomation of this transformation.
+By recording where the bases land when applying a linear transformation and packaging them into a matrix, we have all the infomation about this transformation.
 
 Starting from a specified matrix, we can imagine what the whole space and all the vectors inside look like after the transformation. Conversely, intuitive knowledge of a transformation itself can be expressed as a matrix.
 
@@ -125,7 +120,7 @@ Particularly, if $\mathscr{A}(\hat{\imath}),\,\mathscr{A}(\hat{\jmath})$ are lin
 
 ## 4 Matrix Multiplication as Composition
 
-Applying two successive linear transformations $\mathscr{A}_1, \mathscr{A}_2$ on a vector/space, we get a composition of linear transformations. Numerically, it is the multiplication of matrices corresponding to the transformations respectively.
+Applying two successive linear transformations $\mathscr{A}_1$ and $\mathscr{A}_2$ on a vector/space, we get a composition of linear transformations. Numerically, it is the multiplication of matrices corresponding to these transformations respectively.
 
 $$
 M_2M_1\mathbf{v}=M\mathbf{v},
@@ -195,18 +190,18 @@ $M_{m\times n}$ 代表矩阵 $M$ 有 $m$ 行、$n$ 列。设 $A_{m\times n}B_{n\
 #### 点积
 
 $$
-c_{ij} = \sum_k a_{ik}b_{kj} = \boldsymbol{a}_{i,:}\cdot \boldsymbol{b}_{:,j}.
+c_{ij} = \sum_k a_{ik}b_{kj} = A_{i,:}\cdot B_{:,j}.
 $$
 
 即 $C$ 中第 $i$ 行，第 $j$ 列的元素恰好是 $A$ 的第 $i$ 行与 $B$ 的第 $j$ 列之内积。
 
 #### 矩阵乘以列向量
 
-$C$ 的第 $j$ 列是 $A$ 各列的线性组合，其系数为 $B$ 的第 $j$ 列。即这一列与 $B$ 的其它列无关。这样看来，$C$ 的每一列都是 $A$ 与 $B$ 中对应列的乘积。
+$C$ 的第 $j$ 列是 $A$ 各列的线性组合，其系数为 $B$ 的第 $j$ 列。这一列与 $B$ 的其它列无关。这样看来，$C$ 的每一列都是 $A$ 与 $B$ 中对应列的乘积。
 
 #### 行向量乘以矩阵
 
-$C$ 的第 $i$ 行是 $B$ 各行的线性组合，其系数为 $A$ 的第 $i$ 行。即这一行与 $A$ 的其它行无关。这样看来，$C$ 的每一行都是 $A$ 中对应行与 $B$ 的乘积。
+$C$ 的第 $i$ 行是 $B$ 各行的线性组合，其系数为 $A$ 的第 $i$ 行。这一行与 $A$ 的其它行无关。这样看来，$C$ 的每一行都是 $A$ 中对应行与 $B$ 的乘积。
 
 #### 列向量乘以行向量
 
@@ -234,7 +229,7 @@ $$
 \det(M_1M_2)=\det(M_1)\det(M_2)=\det(M_2M_1).
 $$
 
-行阶梯式(row echelon form)具有以下形式:  
+行阶梯式（row echelon form）具有以下形式:  
 
 $$
 A=
@@ -247,13 +242,13 @@ a_{11} & a_{12} & a_{13} & \cdots & a_{1n} \\
 \end{bmatrix}
 $$
 
-其对空间的缩放比例即其行列式，等于其中诸列张成的（$n$维）立方体之体积，等于每一列垂直于其之前诸列所张成的空间的分量的乘积，即主对角线诸项之乘积
+其对空间的缩放比例即其行列式，等于其中诸列张成的（$n$ 维）立方体之体积，等于每一列垂直于其之前诸列所张成的空间的分量的乘积，即主对角线诸项之乘积
 
 $$
 \det(A)=\prod\limits_{i=j}a_{ij}.
 $$
 
-高斯消元法(Gauss elimination)的本质是用行列式为1的矩阵与原矩阵相乘，故行列式的值未改变，通过高斯消元得到行阶梯式即可求出行列式。
+高斯消元法（Gauss elimination）的本质是用行列式为 $1$ 的矩阵与原矩阵相乘，故行列式的值未改变，通过高斯消元得到行阶梯式即可求出行列式。
 
 
 ## 6 Inverse Matrices, Column Space and Null Space
@@ -268,9 +263,7 @@ has its geometric interpretation that we are looking for a vector $\mathbf{x}$ w
 
 The solution for $\mathbf{x}$ depends on whether the transformation squishes space into a lower dimensional one, i.e., whether $\det(A)$ equals to 0 or not. 
 
-In the case where $\det(A)\neq 0$, there will always be one and only one solution and the finding process is actually playing the transformation in inverse.
-
-The inverse transformation corresponds to matrix $A^{-1}$ which satisfies that
+In the case where $\det(A)\neq 0$, there will always be one and only one solution and the finding process is actually playing the transformation in inverse. The inverse transformation corresponds to matrix $A^{-1}$ which satisfies that
 
 $$
 A^{-1}A\mathbf{x}=A^{-1}\mathbf{v},
@@ -292,9 +285,7 @@ $$
 
 And when we play this inverse transformation and follow $\mathbf{v}$, the single unique solution for $\mathbf{x}$ is obtained.
 
-When $\det(A)= 0$, the transformation squishes the space into a lower dimension, but there is no transformation that can unsquish space into a higher one, for a function cannot map a vector to multiple ones. That is to say, $A^{-1}$ does not exist in this case.
-
-If vector $\mathbf{v}$ is lucky enough to live on that lower-dimensional space, there will be infinite solutions for $\mathbf{x}$, otherwise there won't be any solutions.
+When $\det(A)= 0$, the transformation squishes the space into a lower dimension, but there is no transformation that can unsquish space into a higher one, for a function cannot map a vector to multiple ones. That is to say, $A^{-1}$ does not exist in this case. If vector $\mathbf{v}$ is lucky enough to live on that lower-dimensional space, there will be infinite solutions for $\mathbf{x}$, otherwise there won't be any solutions.
 
 The number of dimensions in the output of the transformation is called the **rank** of the matrix. 
 
@@ -304,11 +295,7 @@ $$
 \text{output space = set of all possible }A\mathbf{x}\text{ = span of columns = column space}
 $$
 
-That is to say, rank is the number of dimensions in the column space.
-
-When the rank is as high as it can be, meaning it equals the number of columns, we call the matrix **full rank**.
-
-Set of all vector that land on the origin after transformation is called the **null space** or the **kernel** of the matrix.
+That is to say, rank is the number of dimensions in the column space. When the rank is as high as it can be, and equals the number of columns, we call the matrix **full rank**. Set of all vectors that land on the origin after transformation is called the **null space** or the **kernel** of the matrix.
 
 When $\det(A)\neq 0$, i.e. $A$ is full rank, only $\mathbf{0}$ lands on the origin.  
 
@@ -366,7 +353,7 @@ Matrix $[a_1, a_2, \cdots , a_n]$ corresponds to a transformation from $n$-dimen
 
 ### Relation between matrix-vector product and dot product 
 
-Suppose there is a tilted number line in a space, and for simplicity, the space is 2-dimensional. The number 0 on that line remains in the origin and its base being
+Suppose there is a tilted number line in a space, and for simplicity, the space is 2-dimensional. The number 0 on that line remains in the origin and the base being
 
 $$
 \hat{u}=
@@ -704,10 +691,10 @@ $$
 
 In terms of linear transformations, how a transformation is expressed is related to the bases. Here are the steps to describe the same transformation in a different coordinate systems:  
 Suppose a linear transformation $M$ in coordinate system $S$ is applied to some vector $\mathbf{w}$ in $S'$,  
-* first translate $\mathbf{w}$ to $S$, namely multiplying $A$ to $\mathbf{w}$;
-* since we've got $A\mathbf{w}$ in $S$, apply the transformation, namely multiplying $M$ to $A\mathbf{w}$;
-* translate it back to $S'$, namely multiplying $A^{-1}$ to it;
-* finally we got $A^{-1}MA\mathbf{w}$. 
+1. first translate $\mathbf{w}$ to $S$ by multiplying $A$ to $\mathbf{w}$;
+2. since we've got $A\mathbf{w}$ in $S$, apply the transformation by multiplying $M$ to $A\mathbf{w}$;
+3. translate it back to $S'$ by multiplying $A^{-1}$ to it;
+4. finally we got $A^{-1}MA\mathbf{w}$. 
 
 To sum up, 
 
@@ -720,10 +707,10 @@ $$
 An eigenvector of a linear transformation is a **non-zero** vector that changes only a scalar factor when that transformation is applied to it. It is defined as
 
 $$
-A\mathbf{v}=\lambda\mathbf{v}
+A\mathbf{v}=\lambda\mathbf{v},
 $$
 
-where non-zero vector $\mathbf{v}$ is an eigenvector of $A$, and $\lambda\in\mathbb{R}$ is the eigenvalue associated to $\mathbf{v}$. 
+where non-zero vector $\mathbf{v}$ is an eigenvector of $A$, and $\lambda\in\mathbb{R}$ is the eigenvalue associated to it.
 
 When applying the transformation, each eigenvector is scaled by the factor of its associated eigenvalue, while other vectors are all knocked off their original directions.
 
@@ -743,7 +730,7 @@ $$
 
 Solve this equation, and if an eigenvector exists, all the vectors on the line spanned by it would be eigenvectors too.
 
-When all the basis vecetors happen to be eigenvectors, they are called eigenbasis, and the corresponding transformation matrix would be diagonal. Therefore a way to interprete a diagonal matrix is that all the basis are eigenvectors, with the diagonal entries of this matrix being their eigenvalues.
+When all the basis vecetors happen to be eigenvectors, they are called eigenbases, and the corresponding transformation matrix would be diagonal. Therefore a way to interpret a diagonal matrix is that all the bases are eigenvectors, with the diagonal entries of this matrix being their eigenvalues.
 
 A diagonal matrix has a nice property that
 
@@ -765,10 +752,10 @@ a_{1}^k v_1 \\
 a_{2}^k v_2 \\
 \vdots \\
 a_{n}^k v_n 
-\end{bmatrix}.
+\end{bmatrix},
 $$
 
-This indicates that if the eigenvectors of matrix $M$ span the whole space, we can change the bases to the eigenvectors, namely the change-of-basis matrix is
+which indicates that if the eigenvectors of matrix $M$ span the whole space, we can change the bases to the eigenvectors, and the change-of-basis matrix is
 
 $$
 A=
@@ -779,17 +766,11 @@ $$
 
 where $\mathbf{v}_i$ are the eigenvectors.
 
-And matrix
+Matrix $A^{-1}MA$ would express the same transformation in the eigenbasis coordinate system, and it is guarenteed to be diagonal with its corresponding eigenvalues down that diagonal, because the vectors are only scaled from the perspective of that coordinate system.
 
-$$
-A^{-1}MA
-$$
+When raising a non-diagonal matrix to some power, first change it into its eigenbases, and then compute that power in the new system, then convert back to the original system.
 
-would express the same transformation in the eigenbasis coordinate system, and it is guarenteed to be diagonal with its corresponding eigenvalues down that diagonal, because the vectors are only scaled from the perspecive of that coordinate system.
-
-When computing the power of a non-diagonal matrix, first change it to an eigenbasis, and then compute that power in the new system, then convert back to the standard system.
-
-But if a matrix does not have enough eigenvectors to span the full space, this approach fails to work.
+When a matrix does not have enough eigenvectors to span the full space, this approach fails to work.
 
 ## 11 Abstract Vector Spaces
 
@@ -824,7 +805,7 @@ $$
 b_0(x)=1,\; b_1(x)=x,\; b_2(x)=x^2,\; \cdots,\; b_n(x)=x^n ,\; \cdots
 $$
 
-as basis functions, and all polynomials can be described as the linear combinations of the *basis functions*:
+as *basis functions*, and all polynomials can be described as the linear combinations of the basis functions:
 
 $$
 f(x)=a_0 + a_1 x + a_2 x^2 + \cdots + a_n x^n =
