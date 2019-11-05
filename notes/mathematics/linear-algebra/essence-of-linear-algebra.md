@@ -717,7 +717,7 @@ When applying the transformation, each eigenvector is scaled by the factor of it
 An equivalence of the equation above
 
 $$
-(A-\lambda I)\mathbf{v} = \mathbf{0},
+(A-\lambda I)\mathbf{v} = \mathbf{0}
 $$
 
 is called the *characteristic equation*.
