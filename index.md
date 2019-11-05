@@ -62,6 +62,8 @@ title: Home
 
 [The Practice of Programming](/notes/computer-programming/the-practice-of-programming)
 
+[Competitive Programming](/notes/computer-programming/competitive-programming/competitive-programming)
+
 
 ### C
 
