@@ -82,7 +82,7 @@ title: Home
 
 ### LaTeX
 
-[LaTeX Fundamentals](notes\LaTeX\latex-fundamentals)
+[LaTeX Cheatsheet](notes\LaTeX\latex-cheatsheet)
 
 [LaTeX Maths](notes\LaTeX\latex-maths)
 

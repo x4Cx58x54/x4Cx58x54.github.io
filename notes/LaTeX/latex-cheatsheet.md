@@ -1,8 +1,8 @@
 ---
-title: LaTeX Fundamentals
+title: LaTeX Cheatsheet
 ---
 
-# LaTeX Fundamentals
+# LaTeX Cheatsheet
 
 ## 源文件结构
 ```tex
