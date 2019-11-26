@@ -19,6 +19,8 @@ title: Home
 
 [Probability Theory](/notes/mathematics/probability-theory/probability-theory)
 
+[Discrete Maths](/notes/mathematics/discrete-maths/discrete-maths)
+
 [Memos](/notes/mathematics/memos/memos)
 
 

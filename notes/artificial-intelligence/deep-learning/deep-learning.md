@@ -245,11 +245,11 @@ $$
 对于多维情况，则参数变为期望向量 $\boldsymbol{\mu}$ 和协方差矩阵 $\boldsymbol{\Sigma}$. $\boldsymbol{\Sigma}$ 必然为正定的对称矩阵。
 
 $$
-\mathcal{N}(x;\boldsymbol{\mu}, \boldsymbol{\Sigma})=\sqrt{\frac{1}{(2\pi)^n\det(\boldsymbol{\Sigma})}}\exp\left[-\frac{1}{2}(\boldsymbol{x}-\boldsymbol{\mu})^\top\boldsymbol{\Sigma}^{-1}(\boldsymbol{x}-\boldsymbol{\mu})\right].
+\mathcal{N}(\boldsymbol{x};\boldsymbol{\mu}, \boldsymbol{\Sigma})=\sqrt{\frac{1}{(2\pi)^n\det(\boldsymbol{\Sigma})}}\exp\left[-\frac{1}{2}(\boldsymbol{x}-\boldsymbol{\mu})^\top\boldsymbol{\Sigma}^{-1}(\boldsymbol{x}-\boldsymbol{\mu})\right].
 $$
 
 $$
-\mathcal{N}(x;\boldsymbol{\mu}, \boldsymbol{\beta}^{-1})=\sqrt{\frac{\det(\boldsymbol{\beta})}{(2\pi)^n}}\exp\left[-\frac{1}{2}(\boldsymbol{x}-\boldsymbol{\mu})^\top\boldsymbol{\beta}(\boldsymbol{x}-\boldsymbol{\mu})\right].
+\mathcal{N}(\boldsymbol{x};\boldsymbol{\mu}, \boldsymbol{\beta}^{-1})=\sqrt{\frac{\det(\boldsymbol{\beta})}{(2\pi)^n}}\exp\left[-\frac{1}{2}(\boldsymbol{x}-\boldsymbol{\mu})^\top\boldsymbol{\beta}(\boldsymbol{x}-\boldsymbol{\mu})\right].
 $$
 
 #### Exponential Distribution 指数分布

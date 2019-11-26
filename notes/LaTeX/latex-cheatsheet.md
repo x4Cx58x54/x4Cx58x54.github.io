@@ -66,26 +66,48 @@ content
     \end{figure}
 ```
 
-### 子图
+### 并列图
+
 ```tex
-\begin{figure}[!h]
+\begin{figure}[htb]
+    \centering
+    \begin{minipage}[t]{0.45\linewidth}
+        \centering
+        \includegraphics[totalheight=50px]{img/1.png}
+        \caption{fig1}
+        \label{fig1}
+    \end{minipage}
+    \begin{minipage}[t]{0.45\linewidth}
+        \centering
+        \includegraphics[totalheight=50px]{img/2.png}
+        \caption{fig2}
+        \label{fig2}
+    \end{minipage}
+    \centering
+\end{figure}
+```
+
+### 子图
+
+```tex
+\begin{figure}[htb]
     \centering
     \subfigure[]{
         \begin{minipage}[t]{0.45\linewidth}
         \centering
-            \includegraphics[totalheight=150px]{img/1.png}
+            \includegraphics[totalheight=50px]{img/1.png}
         \end{minipage}
-        }
+    }
     \subfigure[]{
         \begin{minipage}[t]{0.45\linewidth}
         \centering
-            \includegraphics[totalheight=150px]{img/2.png}
+            \includegraphics[totalheight=50px]{img/2.png}
         \end{minipage}
-        }
+    }
     \centering
     \caption{标题}
     \label{subplot1}
-    \end{figure}
+\end{figure}
 ```
 
 ### 源代码与字体设置
@@ -167,25 +189,63 @@ Refer to the number of the section automatically.
 \fancyfoot[LE, RO]{\thepage}
 ```
 
+```tex
+\cfoot{}
+\lhead{}
+\rhead{}
+```
+
+### 表格
+
+[表格生成器](http://www.tablesgenerator.com/)
 
 ### 三线表
 ```tex
 \usepackage{booktabs}
 
 \begin{table}[htbp]
-\centering
-\caption{标题}
-\begin{tabular}{列对齐}
-\toprule
-a & b & c & d \\
-\midrule
-1 & 2 & 3 & 4 \\
-10 & 20 & 30 & 40 \\
-\bottomrule
-\end{tabular}
+    \centering
+    \caption{标题}
+    \begin{tabular}{列对齐}
+        \toprule
+        a & b & c & d \\
+        \midrule
+        1 & 2 & 3 & 4 \\
+        10 & 20 & 30 & 40 \\
+        \bottomrule
+    \end{tabular}
 \end{table}
 ```
 `htbp` 强制位置。`列对齐`用一组字母表示，字母数为列数。`l` 表示左对齐，`c` 表示居中，`r` 表示右对齐。如`cccc`。
+
+### 并列表
+
+```tex
+\begin{table}[htb]
+\begin{minipage}{0.48\linewidth}
+    \centering
+    \caption{table1}
+    \label{table1}
+    \begin{tabular}{rccccr}
+
+    \end{tabular}
+\end{minipage}
+\begin{minipage}{0.48\linewidth}
+    \centering
+    \caption{table2}
+    \label{table2}
+    \begin{tabular}{rccccr}
+
+    \end{tabular}
+\end{minipage}
+\end{table}
+```
+
+### 横线
+
+```tex
+\noindent\rule[0.25\baselineskip]{\textwidth}{0.4pt}
+```
 
 ### 目录
 ```tex
