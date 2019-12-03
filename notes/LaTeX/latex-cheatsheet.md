@@ -43,16 +43,19 @@ content
 content
 ```
 
-可调用子源文件
+### 主字号
 ```tex
-\begin{document}
-\include{cover}     % 调用cover.tex
-\pagenumbering{Roman}
-\include{chapter1}  % 调用chapter1.tex
-\pagenumbering{arabic}
+\documentclass[12pt, ...]...
 ```
 
-### 命令
+### 双面排版
+
+`book` 类型，和奇偶数页不同处理有关
+```tex
+\documentclass[twoside, ...]...
+```
+
+## 主要元素
 
 ### 图片
 ```tex
@@ -60,13 +63,13 @@ content
 
 \begin{figure}[!h]
     \centering
-    \includegraphics[totalheight=110px]{img/1.png}
+    \includegraphics[totalheight=50px]{img/1.png}
     \caption{标题}
     \label{1png}
-    \end{figure}
+\end{figure}
 ```
 
-### 并列图
+#### 子图
 
 ```tex
 \begin{figure}[htb]
@@ -87,27 +90,179 @@ content
 \end{figure}
 ```
 
-### 子图
+带单独标题子图
+```tex
+\begin{figure}[htb]
+    \centering
+    \subfigure[title1]{
+        \centering
+        \includegraphics[totalheight=50px]{img/1.png}
+    }
+    \subfigure[title2]{
+        \centering
+        \includegraphics[totalheight=50px]{img/1.png}
+    }
+    \centering
+    \caption{caption}
+    \label{fig:1}
+\end{figure}
+```
+
+#### 并列图
 
 ```tex
 \begin{figure}[htb]
     \centering
-    \subfigure[]{
-        \begin{minipage}[t]{0.45\linewidth}
+    \subfigure[fig1 title]{
         \centering
-            \includegraphics[totalheight=50px]{img/1.png}
-        \end{minipage}
+        \includegraphics[totalheight=50px]{img/1.jpg}
     }
-    \subfigure[]{
-        \begin{minipage}[t]{0.45\linewidth}
+    \subfigure[fig1 title]{
         \centering
-            \includegraphics[totalheight=50px]{img/2.png}
-        \end{minipage}
+        \includegraphics[totalheight=50px]{img/2.jpg}
+    }
+    \subfigure[fig1 title]{
+        \centering
+        \includegraphics[totalheight=50px]{img/3.jpg}
     }
     \centering
-    \caption{标题}
-    \label{subplot1}
+    \caption{title}
 \end{figure}
+```
+
+### 表格
+
+[表格生成器](http://www.tablesgenerator.com/)
+
+
+#### 三线表
+```tex
+\usepackage{booktabs}
+
+\begin{table}[htbp]
+    \centering
+    \caption{标题}
+    \begin{tabular}{列对齐}
+        \toprule
+        a & b & c & d \\
+        \midrule
+        1 & 2 & 3 & 4 \\
+        10 & 20 & 30 & 40 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+```
+`htbp` 强制位置。`列对齐`用一组字母表示，字母数为列数。`l` 表示左对齐，`c` 表示居中，`r` 表示右对齐。如`cccc`。
+
+#### 并列表
+
+```tex
+\begin{table}[htb]
+\begin{minipage}{0.48\linewidth}
+    \centering
+    \caption{table1}
+    \label{table1}
+    \begin{tabular}{rccccr}
+
+    \end{tabular}
+\end{minipage}
+\begin{minipage}{0.48\linewidth}
+    \centering
+    \caption{table2}
+    \label{table2}
+    \begin{tabular}{rccccr}
+
+    \end{tabular}
+\end{minipage}
+\end{table}
+```
+
+
+#### 表格行高调整
+```tex
+\renewcommand\arraystretch{1.2}
+```
+在 tabular 环境开始之前使用。
+
+### 列表
+
+#### 有序列表
+```tex
+\begin{enumerate}
+\item
+\end{enumerate}
+```
+#### 无序列表
+```tex
+\begin{itemize}
+\item
+\end{itemize}
+```
+
+#### 列表间距调整
+```tex
+\usepackage{enumitem}
+
+\begin{enumerate}[itemsep= 0pt, topsep = 0pt, parsep = 0pt, listparindent = 24pt, leftmargin = 24pt]
+...
+
+\begin{itemize}[itemsep= 0pt, topsep = 0pt, parsep = 0pt, listparindent = 24pt, leftmargin = 24pt]
+...
+```
+
+#### 列表序号设置
+```tex
+\usepackage{enumerate}
+
+\begin{enumerate}[1)]
+...
+
+\begin{itemize}[1)]
+...
+```
+
+### 目录
+```tex
+\setcounter{tocdepth}{2}
+\tableofcontents
+```
+默认目录深度就是2。
+
+### 摘要
+```tex
+\begin{abstract}
+
+\end{abstract}
+```
+
+### 参考文献
+```tex
+\begin{thebibliography}{0}
+\addcontentsline{toc}{section}{参考文献}
+\bibitem{标签名} 参考文献信息
+\end{thebibliography}
+
+\cite{标签名}
+```
+
+一种模板为
+```tex
+\clearpage
+\kaishu\zihao{-4}
+\begin{flushleft}
+\begin{thebibliography}{0}
+\addcontentsline{toc}{section}{参考文献}
+%\bibitem{1} 唐朔飞. 计算机组成原理（第2版）. 北京：高等教育出版社, 2008.
+\end{thebibliography}
+\end{flushleft}
+```
+
+### 附录
+```tex
+\begin{appendix}
+\ctexset{section={name={附录~,~},format={\center\heiti\zihao{3}}}}
+% appendices
+\end{appendix}
 ```
 
 ### 源代码与字体设置
@@ -127,47 +282,58 @@ The language is specified as `[Dialect]Language`.
 
 ### Reference
 ```tex
-\section{节标题}\label{标签名}
+\label{标签名}
 
 %...
 
 \ref{标签名}
 ```
 
-Refer to the number of the section automatically.
 
-### 中文
+## 次要元素
+
+### 横线
+
 ```tex
-\documentclass[UTF8]{ctexart}
-\zihao{0} % 设置之后文本字号为一号
-\zihao{-4} % 设置之后字号为小四号
+\noindent\rule[0.25\baselineskip]{\textwidth}{0.4pt}
 ```
 
-双面排版：（`book` 类型），和奇偶数页不同处理有关
-```
-\documentclass[UTF8, twoside]{ctexart}
-```
 
-### 中文标题
+### 插入PDF
 ```tex
-\usepackage{ctexcap}
+\usepackage{pdfpages}
 
-\ctexset{section={name={第~,~章},format={\center\heiti\zihao{4}}}} 
-\ctexset{subsection={format={\songti\zihao{-4}\textbf}}}
-\ctexset{subsubsection={format={\songti\zihao{-4}\textbf}}}
-\renewcommand{\abstractname}{\zihao{-4}\textbf{摘要}}
+\includepdf{文件名}
 ```
 
-### 定义新命令
+### 插入 TeX 代码
+不换页
 ```tex
-\newcommand{\di}{\mathrm{d}}
+\input{filename}
 ```
 
-### 页边距
+换页
 ```tex
-\usepackage{geometry}
+\include{filename}
+```
 
-\geometry{top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm}
+### 页码
+```tex
+\thispagestyle{empty}   % 该页无页码
+
+\setcounter{page}{1}    % 设置此页从1开始
+```
+
+#### 页码编号方式
+```tex
+\pagenumbering{Roman}
+```
+
+#### Page n of N
+```tex
+\usepackage{lastpage}
+
+\footnotesize Page \thepage\ of \pageref{LastPage}
 ```
 
 ### 页眉与页脚
@@ -195,128 +361,47 @@ Refer to the number of the section automatically.
 \rhead{}
 ```
 
-### 表格
-
-[表格生成器](http://www.tablesgenerator.com/)
-
-### 三线表
-```tex
-\usepackage{booktabs}
-
-\begin{table}[htbp]
-    \centering
-    \caption{标题}
-    \begin{tabular}{列对齐}
-        \toprule
-        a & b & c & d \\
-        \midrule
-        1 & 2 & 3 & 4 \\
-        10 & 20 & 30 & 40 \\
-        \bottomrule
-    \end{tabular}
-\end{table}
-```
-`htbp` 强制位置。`列对齐`用一组字母表示，字母数为列数。`l` 表示左对齐，`c` 表示居中，`r` 表示右对齐。如`cccc`。
-
-### 并列表
-
-```tex
-\begin{table}[htb]
-\begin{minipage}{0.48\linewidth}
-    \centering
-    \caption{table1}
-    \label{table1}
-    \begin{tabular}{rccccr}
-
-    \end{tabular}
-\end{minipage}
-\begin{minipage}{0.48\linewidth}
-    \centering
-    \caption{table2}
-    \label{table2}
-    \begin{tabular}{rccccr}
-
-    \end{tabular}
-\end{minipage}
-\end{table}
-```
-
-### 横线
-
-```tex
-\noindent\rule[0.25\baselineskip]{\textwidth}{0.4pt}
-```
-
-### 目录
-```tex
-\setcounter{tocdepth}{2}
-\tableofcontents
-```
-默认目录深度就是2。
-
-### 摘要
-```tex
-\begin{abstract}
-
-\end{abstract}
-```
-
-### 参考文献
-```tex
-\begin{thebibliography}{最大参考文献数}
-\addcontentsline{toc}{section}{参考文献}
-\bibitem{标签名} 参考文献信息
-\end{thebibliography}
-
-\cite{标签名}
-```
-
-一种模板为
-```tex
-\clearpage
-\kaishu\zihao{-4}
-\begin{flushleft}
-\begin{thebibliography}{0}
-\addcontentsline{toc}{section}{参考文献}
-%\bibitem{1} 唐朔飞. 计算机组成原理（第2版）. 北京：高等教育出版社, 2008.
-\end{thebibliography}
-\end{flushleft}
-```
-
-### 插入PDF
-```tex
-\usepackage{pdfpages}
-
-\includepdf{文件名}
-```
-
-### 页码
-```tex
-\thispagestyle{empty}   % 该页无页码
-
-\setcounter{page}{1}    % 设置此页从1开始
-```
-
-### 附录
-```tex
-\begin{appendix}
-\ctexset{section={name={附录~,~},format={\center\heiti\zihao{3}}}}
-% appendices
-\end{appendix}
-```
-
-### 列表
-```tex
-\begin{enumerate}
-\item
-\end{enumerate}
-```
-
 ### 空页
 ```tex
 \clearpage
 \phantom{this page was intentionally left blank.}
 \clearpage
+```
+
+
+## 中文支持
+```tex
+\documentclass[UTF8]{ctexart}
+\zihao{0} % 设置之后文本字号为一号
+\zihao{-4} % 设置之后字号为小四号
+```
+
+
+### 中文标题
+```tex
+\usepackage{ctexcap}
+
+\ctexset{section={name={第~,~章},format={\center\heiti\zihao{4}}}} 
+\ctexset{subsection={format={\songti\zihao{-4}\textbf}}}
+\ctexset{subsubsection={format={\songti\zihao{-4}\textbf}}}
+\renewcommand{\abstractname}{\zihao{-4}\textbf{摘要}}
+```
+
+
+## 布局设置
+
+### 页边距
+```tex
+\usepackage{geometry}
+
+\geometry{top=2.54cm, bottom=2.54cm, left=3.18cm, right=3.18cm}
+```
+
+## 格式设置
+
+### 定义新命令
+```tex
+\newcommand{\di}{\mathrm{d}}
 ```
 
 ### 章节换页并清零图片列表序号
@@ -327,8 +412,26 @@ Refer to the number of the section automatically.
 \section{总结}
 ```
 
+定义新的换页章节，带序号清零
+```tex
+\newcommand{\sectionp}[1]{\clearpage\setcounter{table}{0}\setcounter{figure}{0}\section{#1}}
+```
+
 ### 设置图片与列表编号方式
 ```tex
 \renewcommand{\thefigure}{\thesection{}.\arabic{figure}}
 \renewcommand{\thetable}{\thesection{}.\arabic{table}}
+```
+
+### 更改目录、参考文献、图片、表格名称
+```tex
+\renewcommand{\contentsname}{Contents}
+\renewcommand{\refname}{References}
+\renewcommand{\figurename}{Fig.}
+\renewcommand{\tablename}{Table}
+```
+
+### 引用参考文献格式改为上标
+```tex
+\newcommand{\upcite}[1]{\textsuperscript{\cite{#1}}}
 ```

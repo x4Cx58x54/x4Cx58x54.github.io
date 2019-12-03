@@ -99,7 +99,7 @@ The left-singular vectors of $\boldsymbol{A}$ are the eigenvectors of $\boldsymb
 $\boldsymbol{A}$ 的摩尔-彭罗斯广义伪逆定义为
 
 $$
-A^+=\lim_{\alpha\rightarrow0}(\boldsymbol{A}^\top\boldsymbol{A}+\alpha\boldsymbol{I})^{-1}\boldsymbol{A}^\top.
+\boldsymbol{A}^+=\lim_{\alpha\rightarrow0}(\boldsymbol{A}^\top\boldsymbol{A}+\alpha\boldsymbol{I})^{-1}\boldsymbol{A}^\top.
 $$
 
 Pratical algorithms for computing the pseudoinverse are based on the formula
