@@ -56,6 +56,12 @@ System Type and Tracking（FCDS, 209-211）
 
 二阶与三阶系统的赫尔维茨判据（胡寿松, 107）
 
+标准二阶欠阻尼系统的阶跃响应：
+
+$$
+c(t) = 1-\frac{1}{\sqrt{1-\zeta^2}}\mathrm{e}^{-\sigma t}\sin(\omega_d t + \beta)
+$$
+
 
 ### 部分分式分解 | Partial Fraction Decomposition
 
@@ -69,6 +75,22 @@ $$
 
 $$
 k_i = \lim_{z\rightarrow z_i}(z-z_i)f(z).
+$$
+
+对有重根的情况，
+
+$$
+F(s) = \frac{s+3}{(s+1)(s+2)^2} = \frac{C_1}{s+1} + \frac{C_2}{s+2} + \frac{C_3}{(s+2)^2}.
+$$
+
+则
+
+$$
+\begin{aligned}
+&C_1 = (s+1)F(s)\vert_{s = -1}=2,\\
+&C_2 = \frac{\mathrm{d}}{\mathrm{d}s}\big[(s+2)^2F(s)\big]\vert_{s=-2}=-2,\\
+&C_3 = (s+2)^2F(s)\vert_{s=-2}=-1.
+\end{aligned}
 $$
 
 ### 单位反馈系统的开环与闭环传递函数
@@ -90,7 +112,7 @@ E(s)
 &= R-B \\
 &= R-C \\
 &= R-\varPhi R \\
-&=\frac{1}{1+G}.
+&=\frac{1}{1+G}R.
 \end{aligned}
 $$
 
@@ -103,7 +125,7 @@ $$
 为开环增益（即约去分母中的 $s$ 因式）。另一种定义的方法是
 
 $$
-G = K\cdot\frac{\prod\limits_i(a_is+1)}{\prod\limits_i(b_is+1)}.
+G = K\cdot\frac{\prod\limits_i(a_is+1)}{\prod\limits_j(b_js+1)}.
 $$
 
 由终值定理，有

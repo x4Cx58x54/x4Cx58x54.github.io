@@ -285,12 +285,11 @@ $$
 
 |象原函数 $f(t)$ | 象函数 $F(s)$
 :---: | :---:
-$1$ | $\cfrac{1}{s}$
-$\mathrm{e}^{-at}$ | $\cfrac{1}{s+a}$
-$t$ | $\cfrac{1}{s^2}$
-$t^m$ | $\cfrac{m!}{s^{m+1}}$
-$t^m\mathrm{e}^{at}$ | $\cfrac{m!}{(s-a)^{m+1}}$
 $\delta(t)$ | $1$
+$1$ | $\cfrac{1}{s}$
+$t$ | $\cfrac{1}{s^2}$
+$\dfrac{t^2}{2!}$ | $\dfrac{1}{s^3}$
+$\dfrac{t^{n-1}}{(n-1)!}$ | $\dfrac{1}{s^n}$
 $\delta^{(n)}(t)$ | $s^n$
 $\sin \omega t$ | $\cfrac{\omega}{s^2+\omega^2}$
 $\cos \omega t$ | $\cfrac{s}{s^2+\omega^2}$
@@ -298,7 +297,10 @@ $\sinh \omega t$ | $\cfrac{\omega}{s^2-\omega^2}$
 $\cosh \omega t$ | $\cfrac{s}{s^2-\omega^2}$
 $t\sin \omega t$ | $\cfrac{2\omega s}{(s^2+\omega^2)^2}$
 $t\cos \omega t$ | $\cfrac{s^2-\omega^2}{(s^2+\omega^2)^2}$
+$\mathrm{e}^{-at}$ | $\cfrac{1}{s+a}$
+$t\mathrm{e}^{-at}$ | $\cfrac{1}{(s+a)^2}$
 $(1-at)\mathrm{e}^{-at}$ | $\cfrac{s}{(s+a)^2}$
+$1-\mathrm{e}^{-at}$ | $\cfrac{a}{s(s+a)}$
 
 ### Laplace 变换的性质
 
