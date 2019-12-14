@@ -218,6 +218,7 @@ LaTeX | Display | LaTeX | Display | LaTeX | Display
 `\log` | $\log$ | `\ln` | $\ln$ | `\lg` | $\lg$
 `\deg` | $\deg$ | `\hom` | $\hom$ | `\arg` | $\arg$
 `\bmod` | $\bmod$ | `\dim` | $\dim$ | `\ker` | $\ker$
+`\argmax` | $\argmax$ | `\argmin` | $\argmin$
 
 `\operatorname{}` $\hspace{2em}\operatorname{optr}$ 
 
@@ -231,7 +232,7 @@ LaTeX | Display | LaTeX | Display
 `\underleftarrow{ABC}` | $\underleftarrow{ABC}$ | `\underrightarrow{ABC}` | $\underrightarrow{ABC}$
 `\overleftrightarrow{ABC}` | $\overleftrightarrow{ABC}$ | `\underleftrightarrow{ABC}` | $\underleftrightarrow{ABC}$
 `\xleftarrow[A]{B}` | $\xleftarrow[A]{B}$ | `\xrightarrow[A]{B}` | $\xrightarrow[A]{B}$
-`\xleftrightarrow[A]{B}` | <!--$\xleftrightarrow[A]{B}$--> $\times$ | 
+`\xleftrightarrow[A]{B}` | $\xleftrightarrow[A]{B}$ | `\xlongequal[A]{B}` | $\xlongequal[A]{B}$
 `\overline` | $\overline{XYZ}$ | `\underline` | $\underline{XY}$
 `\widehat` | $\widehat{abc}$ | `\widetilde` | $\widetilde{MN}$  
 `\overset{*}{x}` | $\overset{*}{x}$ | `\underset{*}{x}` | $\underset{*}{x}$
@@ -243,7 +244,7 @@ LaTeX | Display | LaTeX | Display | LaTeX | Display
 :---: | :---: | :---: | :---: | :---: | :---: 
 `\sum` | $\sum$ | `\prod` | $\prod$ | `\coprod` | $\coprod$
 `\int` | $\int$ | `\iint` | $\iint$ | `\iiint` | $\iiint$
-`\oint` | $\oint$ | `\oiint` | <!--$\oiint$--> $\times$ | `\oiiint` | <!--$\oiiint$--> $\times$
+`\oint` | $\oint$ | `\oiint` | $\oiint$ | `\oiiint` | $\oiiint$
 `\bigcap` | $\bigcap$ | `\bigcup` | $\bigcup$ | `\biguplus` | $\biguplus$
 `\bigwedge` | $\bigwedge$ | `\bigvee` | $\bigvee$ | `\bigsqcup` | $\bigsqcup$
 `\bigoplus` | $\bigoplus$ | `\bigotimes` | $\bigotimes$ | `\bigodot` | $\bigodot$
@@ -445,4 +446,6 @@ LaTeX | Display | LaTeX | Display
 `\leftrightsquigarrow` | $\leftrightsquigarrow$
 
 
-$^\ast\times$ : LaTeX not supported by MathJax extension
+$\LaTeX$ formulas are now rendered by $\KaTeX$, the MathJax version was deprecated.
+
+[KaTeX Supported Functions at katex.org](https://katex.org/docs/supported.html)
