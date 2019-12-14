@@ -21,6 +21,39 @@
   }
 }
 
+@font-face
+{
+  font-family: Garamond;
+  src: local("GARA.TTF"), local("Garamond"), url('../fonts/GARA.TTF');
+  font-style: normal;
+}
+
+@font-face
+{
+  font-family: Garamond;
+  src: local("GARABD.TTF"), local("Garamond"), url('../fonts/GARABD.TTF');
+  font-weight: bold;
+}
+
+@font-face
+{
+  font-family: Garamond;
+  src: local("GARAIT.TTF"), local("Garamond"), url('../fonts/GARAIT.TTF');
+  font-style: italic;
+}
+
+@font-face
+{
+  font-family: 方正新书宋简体;
+  src: local("方正新书宋简体"), local("FZNewShuSong-Z10S"), url('../fonts/FZXSSJW.TTF');
+}
+
+@font-face
+{
+  font-family: Monaco;
+  src: local("Monaco"), url('../fonts/Monaco.ttf');
+}
+
 * {
   box-sizing: border-box;
 }
@@ -28,7 +61,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Garamond, "Helvetica Neue", Helvetica, Arial, FZNewShuSong-Z10S, FZShuSong-Z01S, "Microsoft Yahei UI", sans-serif;
+  font-family: Garamond, 方正新书宋简体, serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -119,13 +152,9 @@ a {
     //text-indent: 2em;
   }
 
-  //blockquote > p {
-  //  text-indent: 0em !important;
-  //}
-
   code {
     padding: 2px 4px;
-    font-family: Monaco, Consolas, "Liberation Mono", Menlo, Courier, "Microsoft JhengHei UI", monospace;
+    font-family: Monaco, Consolas, "Microsoft JhengHei UI", 微软雅黑, monospace;
     color: $code-text-color;
     background-color: $code-bg-color;
     border-radius: 0.3rem;
@@ -147,7 +176,7 @@ a {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font: 1rem Monaco, Consolas, "Liberation Mono", Menlo, Courier, "Microsoft JhengHei UI", monospace;
+    font: 1rem Monaco, Consolas, "Microsoft JhengHei UI", 微软雅黑, monospace;
     color: $code-text-color;
     word-wrap: normal;
     background-color: $code-bg-color;
