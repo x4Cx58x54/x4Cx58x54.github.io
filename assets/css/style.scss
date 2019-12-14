@@ -2,3 +2,43 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+
+@font-face
+{
+  font-family: Garamond;
+  src: local("GARA.TTF"), url('../../fonts/GARA.TTF') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face
+{
+  font-family: Garamond;
+  src: local("GARAIT.TTF"), url('../../fonts/GARAIT.TTF') format('truetype');
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face
+{
+  font-family: Garamond;
+  src: local("GARABD.TTF"), url('../../fonts/GARABD.TTF') format('truetype');
+  font-weight: bold;
+  font-display: swap;
+}
+
+
+@font-face
+{
+  font-family: 方正新书宋简体;
+  src: local("方正新书宋简体"), local("FZNewShuSong-Z10S"), url('../../fonts/FZXSSJW.TTF') format('truetype');
+  font-display: swap;
+}
+
+@font-face
+{
+  font-family: Monaco;
+  src: local("Monaco"), url('../../fonts/Monaco.ttf') format('truetype');
+  font-display: swap;
+}

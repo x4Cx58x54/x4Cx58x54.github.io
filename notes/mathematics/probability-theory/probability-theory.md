@@ -108,7 +108,7 @@ $$
 对一维随机变量 $X\sim N(\mu, \sigma^2)$, 
 
 $$
-p(x)=\sqrt{\frac{1}{2\pi\sigma^2}}\exp\left[-\frac{(x-\mu)^2}{2\sigma^2}\right].
+p(\boldsymbol{x})=\sqrt{\frac{1}{2\pi\sigma^2}}\exp\left[-\frac{(x-\mu)^2}{2\sigma^2}\right].
 $$
 
 对多维随机变量 $X\sim N(\boldsymbol{\mu}, \boldsymbol{\Sigma})$,
