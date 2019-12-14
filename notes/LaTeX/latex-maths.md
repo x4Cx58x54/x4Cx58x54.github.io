@@ -2,13 +2,14 @@
 title: LaTeX Maths
 ---
 
-# LaTeX Maths
+# $\LaTeX$ Maths
 
 ## Fundamentals
 
 Name | LaTeX | Display
 :---: | :---: | :---:
-text | `\text` | $\text{LaTeX}$
+LaTeX | `\LaTeX` | $\LaTeX$
+text | `\text` | $\text{text}$
 math roman | `\mathrm` | $\mathrm{C}$
 subscript | `_` | $x_i$
 superscript | `^` | $y^\alpha$

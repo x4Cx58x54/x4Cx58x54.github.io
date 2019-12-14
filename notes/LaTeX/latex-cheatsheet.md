@@ -2,7 +2,7 @@
 title: LaTeX Cheatsheet
 ---
 
-# LaTeX Cheatsheet
+# $\LaTeX$ Cheatsheet
 
 ## 源文件结构
 ```tex

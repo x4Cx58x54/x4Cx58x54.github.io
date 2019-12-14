@@ -82,7 +82,7 @@ title: Home
 [Python 3 Object-Oriented Programming](/notes/python-notes/python-3-object-oriented-programming)
 
 
-### LaTeX
+### $\LaTeX$
 
 [LaTeX Cheatsheet](notes\LaTeX\latex-cheatsheet)
 
