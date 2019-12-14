@@ -446,6 +446,6 @@ LaTeX | Display | LaTeX | Display
 `\leftrightsquigarrow` | $\leftrightsquigarrow$
 
 
-$\LaTeX$ formulas are now rendered by $\KaTeX$, the MathJax version was deprecated.
+$\LaTeX$ formulas are now rendered by $\KaTeX$. The MathJax version was deprecated.
 
 [KaTeX Supported Functions at katex.org](https://katex.org/docs/supported.html)
