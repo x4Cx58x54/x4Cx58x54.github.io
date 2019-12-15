@@ -28,7 +28,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: Garamond, 方正新书宋简体, 宋体, sans-serif;
+  font-family: Garamond, "Helvetica Neue", Helvetica, Arial, 方正新书宋简体, 微软雅黑, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
@@ -121,7 +121,7 @@ a {
 
   code {
     padding: 2px 4px;
-    font-family: Monaco, Consolas, "Microsoft JhengHei UI", 微软雅黑, monospace;
+    font-family: Monaco, "Source Code Pro", Consolas, Menlo, Courier, "Microsoft JhengHei UI", 微软雅黑, monospace;
     color: $code-text-color;
     background-color: $code-bg-color;
     border-radius: 0.3rem;
@@ -143,7 +143,7 @@ a {
     padding: 0.8rem;
     margin-top: 0;
     margin-bottom: 1rem;
-    font: 1rem Monaco, Consolas, "Microsoft JhengHei UI", 微软雅黑, monospace;
+    font: 1rem Monaco, "Source Code Pro", Consolas, Menlo, Courier, "Microsoft JhengHei UI", 微软雅黑, monospace;
     color: $code-text-color;
     word-wrap: normal;
     background-color: $code-bg-color;
