@@ -18,7 +18,7 @@ $A^{**}\Leftrightarrow A$.
 
 对偶原理：$A\Leftrightarrow B$ 则 $A^* \Leftrightarrow B^*$.
 
-$A\Rightarrow B$ 则 $B^*\Rightarrow A^*$.
+$A\Rightarrow B$ 则 $B^* \Rightarrow A^*$.
 
 主析取范式：极小项之和（析取）.  
 主合取范式：极大项之积（合取）.
