@@ -33,15 +33,15 @@ numbering | `\tag{1.1}` / `\tag*{1.1}` | $(1.1)$ / $1.1$
 
 Name | LaTeX | Spacing | Display
 :---: | :---: | :---: | :---:
-thin space | `\,` or `\thinspace` | 3*mu* | $A\, B$
-mediuim space | `\:` or `\medspace` | 4*mu* | $A\hspace{4mu} B$
-thick space | `\;` or `\thickspace` | 5*mu* | $A\; B$
-thicker space | `\ ` | 6*mu* | $A\ B$
-quad | `\quad` | 1*em* = 18*mu* | $A\quad B$
-2 quad | `\qquad` | 2*em* = 36*mu* | $A\qquad B$
-neg thin space | `\!` or `\negthinspace` | -3*mu* | $A\negthinspace B$
-neg medium space | `\negmedspace` | -4*mu* | $A\negmedspace B$
-neg thick space | `\negthickspace` | -5*mu* | $A\negthickspace B$
+thin space | `\,` or `\thinspace` | 3 mu | $A\, B$
+mediuim space | `\:` or `\medspace` | 4 mu | $A\hspace{4mu} B$
+thick space | `\;` or `\thickspace` | 5 mu | $A\; B$
+thicker space | `\ ` | 6 mu  | $A\ B$
+quad | `\quad` | 1 em = 18 mu | $A\quad B$
+2 quad | `\qquad` | 2 em = 36 mu | $A\qquad B$
+neg thin space | `\!` or `\negthinspace` | -3 mu | $A\negthinspace B$
+neg medium space | `\negmedspace` | -4 mu | $A\negmedspace B$
+neg thick space | `\negthickspace` | -5 mu | $A\negthickspace B$
 horizontal space | `\hspace{0mu}` | specified mu / em | $A\hspace{0mu} B$
 phantom | `\phantom{abc}` | as specified text | $A\phantom{abc} B$
 horizontal phantom | `\hphantom{abc}` | as wide as specified text | $A\hphantom{abc} B$

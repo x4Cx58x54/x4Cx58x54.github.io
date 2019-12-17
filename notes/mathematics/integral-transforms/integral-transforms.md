@@ -242,9 +242,9 @@ $$
 
 | |象原函数 $f(t)$ | 象函数 $F(\omega)$
 :---:|:---: | :---:
-矩形脉冲 | $\begin{cases}E, &\vert t\vert\le\cfrac{\tau}{2},\\\\ 0, &\mathrm{otherwise}\end{cases}$ | $2E\ \cfrac{\sin\cfrac{\omega\tau}{2}}{\omega}$
+矩形脉冲 | $\begin{cases}E, &\vert t\vert\le\dfrac{\tau}{2},\\\\ 0, &\mathrm{otherwise}\end{cases}$ | $2E\ \cfrac{\sin\dfrac{\omega\tau}{2}}{\omega}$
 指数衰减 | $\begin{cases}0, &t<0,\\\\ \mathrm{e}^{-\beta t}, &t\ge0\ (\beta>0)\end{cases}$ | $\cfrac{1}{\beta+i\omega}$
-钟形脉冲 | $A\mathrm{e}^{-\beta t^2}\ (\beta>0)$ | $\sqrt{\cfrac{\pi}{\beta}}A\mathrm{e}^{-\frac{\omega^2}{4\beta}}$
+钟形脉冲 | $A\mathrm{e}^{-\beta t^2}\ (\beta>0)$ | $\sqrt{\dfrac{\pi}{\beta}}A\mathrm{e}^{-\frac{\omega^2}{4\beta}}$
 Fourier 核 | $\cfrac{\sin\omega_0t}{\pi t}$ | $\begin{cases}1, &\vert\omega\vert\le\omega_0,\\\\ 0, &\mathrm{otherwise}\end{cases}$
 单位脉冲 | $\delta(t)$ | $1$
 单位阶跃 | $u(t)$ | $\cfrac{1}{i\omega}+\pi\delta(\omega)$

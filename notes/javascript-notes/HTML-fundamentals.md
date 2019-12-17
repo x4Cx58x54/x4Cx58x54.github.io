@@ -4,7 +4,7 @@ title: HTML Fundamentals
 
 # HTML Fundamentals
 
-*HTML stands for **H**yper**T**ext **M**arkup **L**anguages*  
+*HTML stands for **H**yper**T**ext **M**arkup **L**anguage*  
 
 ## Stucture
 

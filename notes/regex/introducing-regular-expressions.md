@@ -11,7 +11,7 @@ title: Introducing Regular Expressions
 
 ## Escape Characters
 
-|  |  |  |  |
+Regex | Pattern | Regex | Pattern
 :---: | :---: | :---: | :---:
 `\a`|alert
 `\b`|word boundary|`\B`|non-word boundary
@@ -21,7 +21,7 @@ title: Introducing Regular Expressions
 `\dxxx`|digital value for a character|`\xxx`|hexadecimal calue for a character
 `\uxxx`|unicode value for a character
 
-|  |  |  |  |
+Regex | Pattern | Regex | Pattern
 :---: | :---: | :---: | :---:
 `\f`|for feed
 `\h`|horizontal whitespace|`\H`|not horizontal whitespace
