@@ -4,7 +4,7 @@ title: Introducing Regular Expressions
 
 # Introducing Regular Expressions
 
-*Michael Fitzgerald*  
+> *Michael Fitzgerald*  
 *正则表达式入门（影印版）*  
 *2012, O'Reilly Media, 2013, 东南大学出版社, 中南大学图书馆*  
 *2019.3.10 - 3.21 长沙*

@@ -173,27 +173,27 @@ h1 {
    font-size: 20px;
 }
 ```
-*Keywords:* `xx-small`, `small`, `medium`, `large`, `larger`, `x-large`  
+*Keywords*: `xx-small`, `small`, `medium`, `large`, `larger`, `x-large`  
 *`em` = `pixels` / 16*  
 
 **Font style**
 ```css
 font-style: italic;
 ```
-*Keywords:* `normal`, `italic`, `oblique`
+*Keywords*: `normal`, `italic`, `oblique`
 
 **Font weight**
 ```css
 font-weight: bold;
 ```
-*Keywords:* `lighter`, `bold`, `bolder`  
+*Keywords*: `lighter`, `bold`, `bolder`  
 *Values*: `100` (thin) - `900` (thick)  
 
 **Font variant**
 ```css
 font-variant: normal;
 ```
-*Keywords:* `normal`, `small-caps`, `inherit`
+*Keywords*: `normal`, `small-caps`, `inherit`
 
 **Color**
 ```css
@@ -208,19 +208,19 @@ color: red;
 ```css
 text-align: left;
 ```
-*Keywords:* `left`, `center`, `right`
+*Keywords*: `left`, `center`, `right`
 
 **Vertical align**
 ```css
 vertical-align: top;
 ```
-*Keywords:* `top`, `middle`, `bottom`, `baseline`, `sub`, `super`, `px`(positive and negative)
+*Keywords*: `top`, `middle`, `bottom`, `baseline`, `sub`, `super`, `px`(positive and negative)
 
 **Text decoration**
 ```css
  text-decoration: inherit;
 ```
-*Keywords:* `none`, `inherit`, `overline`, `underline`, `line-through`, `blink`
+*Keywords*: `none`, `inherit`, `overline`, `underline`, `line-through`, `blink`
 
 **Text indent**
 ```css
@@ -232,27 +232,27 @@ vertical-align: top;
 text-shadow: 5px 2px 4px grey;
 ```
 
-*parameters:* X coord., Y coord., blur radius, color
+*parameters*: X coord., Y coord., blur radius, color
 
 **Text transform**  
 ```css
 transform: capitalize;
 <!-- Transforms the first character in each word to uppercase -->
 ```
-*Keywords:* `capitalize`, `uppercase`, `lowercase`
+*Keywords*: `capitalize`, `uppercase`, `lowercase`
 
 **Letter and word spacing**
 ```css
 letter-spacing: 4px; 
 word-spacing: 4px; 
 ```
-*Keywords:* `normal`, `px`(positive and negative)
+*Keywords*: `normal`, `px`(positive and negative)
 
 **White space**
 ```css
 white-space: nowrap; 
 ```
-*Keywords:* 
+*Keywords*: 
 - `normal`
 - `inherit`
 - `nowrap` makes the text continue on the same line until a <br> tag is encountered, and also collapses all sequences of whitespace into a single whitespace.
@@ -279,14 +279,14 @@ or
 ```css
 border: 5px solid green; 
 ```
-*Border-style keywords:* 
+*Border-style keywords*: 
 `none`, `dotted`, `dashed`, `double`, `groove`, `ridge`, `inset`, `outset`, `hidden`
 
 <img src="img\borderstyle.png" width="280px" height="316px" />
 
 **Width and height**
 
-*Parameters:* `width`, `height`, `min-width`, `max-width`, `min-height`, `max-height`
+*Parameters*: `width`, `height`, `min-width`, `max-width`, `min-height`, `max-height`
 
 **Background color**
 ```css
@@ -299,8 +299,8 @@ background-image: url("logo.png");
 background-repeat: repeat-x;
 background-attachment: fixed;
 ```
-*Background-repeat keywords:* `repeat`, `no-repeat`, `repeat-x`, `repeat-y`, `inherit`  
-*Background-attachment keywords:* `fixed`, `scroll`, `inherit`  
+*Background-repeat keywords*: `repeat`, `no-repeat`, `repeat-x`, `repeat-y`, `inherit`  
+*Background-attachment keywords*: `fixed`, `scroll`, `inherit`  
 can be set for the whole page too.
 
 **List item marker**
@@ -309,8 +309,8 @@ list-style-type: lower-alpha;
 list-style-image: url("logo.jpg");
 list-style-position: inside;
 ```
-*`<ul>` keywords:* `circle`, `square`  
-*`<ol>` keywords:* `lower-alpha`, `decimal`, `disc`  
+*`<ul>` keywords*: `circle`, `square`  
+*`<ol>` keywords*: `lower-alpha`, `decimal`, `disc`  
 
 or
 ```css
@@ -327,9 +327,9 @@ empty-cells: hide;
 table-layout: auto;
 width="10%"
 ```
-*`empty-cells` keywords:* `hide`, `show`  
-*`caption-side` keywords:* `top`, `bottom`  
-*`table-layout` keywords:* `auto`, `fixed`  
+*`empty-cells` keywords*: `hide`, `show`  
+*`caption-side` keywords*: `top`, `bottom`  
+*`table-layout` keywords*: `auto`, `fixed`  
 
 **Link style**  
 ```css
@@ -337,7 +337,7 @@ a:hover {
    color: red;
 }
 ```
-*pseudo selectors:*  
+*pseudo selectors*:  
 `a:link` defines the style for normal unvisited links  
 `a:visited` defines the style for visited links  
 `a:active` a link becomes active once you click on it  
@@ -351,7 +351,7 @@ text-decoration: none;
 ```css
 cursor:help;
 ```
-*keywords:* `auto`, `default`, `crosshair`, `move`, `help`, `text`, `wait`, `n-resize`, ..., `w-resize`, `ne-resize`, ..., `sw-resize`, `pointer`, `progress`, `not-allowed`, `no-drop`, `vertical-text`, `all-scroll`, `col-resize`, `row-resize`
+*Keywords*: `auto`, `default`, `crosshair`, `move`, `help`, `text`, `wait`, `n-resize`, ..., `w-resize`, `ne-resize`, ..., `sw-resize`, `pointer`, `progress`, `not-allowed`, `no-drop`, `vertical-text`, `all-scroll`, `col-resize`, `row-resize`
 ***
 
 
@@ -361,20 +361,20 @@ cursor:help;
 ```css
 display:block;
 ```
-*Keywords:* `block`, `inline`, `none`, `list-item`, `table`, `table-cell`, `table-column`, `grid`
+*Keywords*: `block`, `inline`, `none`, `list-item`, `table`, `table-cell`, `table-column`, `grid`
 
 **visibility**
 ```css
 visibility: hidden;
 ```
-*Keywords:* `hidden`, `visible`  
-*Notes:* `display:none` hides the entire place, while `visibility: hidden` leaves a blank.
+*Keywords*: `hidden`, `visible`  
+*Notes*: `display:none` hides the entire place, while `visibility: hidden` leaves a blank.
 
 **position**
 ```css
 position:static;
 ```
-*Keywords:*
+*Keywords*:
 - `static` not affected by `top`, `bottom`, `left`, `right`
 - `fixed` specified by `top`, `bottom`, `left`, `right`
 - `relative`
@@ -387,21 +387,21 @@ img {
    float: right;
 }
 ```
-*Keywords:* `none`, `left`, `right`
+*Keywords*: `none`, `left`, `right`
 
 **Clear**  
 *The clear property specifies the sides of an element where other floating elements are not allowed to be.*
 ```css
 clear: both;
 ```
-*Keywords:* `none`, `both`, `left`, `right`  
+*Keywords*: `none`, `both`, `left`, `right`  
    
 **Overflow**  
 *The overflow property specifies the behavior that occurs when an element's content overflows the element's box.*
 ```css
 overflow: scroll;
 ```
-*Keywords:* `visible`(default), `scroll`, `hidden`, `auto`  
+*Keywords*: `visible`(default), `scroll`, `hidden`, `auto`  
 
 **Z-index**
 *The z-index property specifies the stack order of an element.*
@@ -410,8 +410,8 @@ z-index: 3;
 ```
 default: later ones are on the top of former ones.
 ones of higher index can cover the lower ones.
-***
 
+---
 
 # CSS3 Features
 
@@ -434,14 +434,14 @@ or
 ```css
 border-radius: 0 0 20px 20px;
 ```
-*parameter order:* top-left, top-right, bottom-right, bottom-left  
+*parameter order*: top-left, top-right, bottom-right, bottom-left  
 
 **Box shadow**  
 ```css
 box-shadow: 10px 10px 5px 5px #888888
 inset 10px 10px 5px #888888;
 ```
-*parameter order:* horizontal offset, vertical offset, blur distance, spread distance, color  
+*parameter order*: horizontal offset, vertical offset, blur distance, spread distance, color  
 inset: inner shadow  
 separate different shadows by comma
 
@@ -458,7 +458,7 @@ separate different shadows by comma
 text-shadow: 5px 10px 2px #93968f;
 text-shadow: none;
 ```
-*parameter order:* X offset, Y offset, blur, color  
+*parameter order*: X offset, Y offset, blur, color  
 
 
 **Pseudo-classes**  
@@ -482,7 +482,7 @@ The CSS
 }
 ```
 
-*Commonly used pseudo-classes:* `first-child`, `last-child`
+*Commonly used pseudo-classes*: `first-child`, `last-child`
 
 **Pseudo-elements**
 
@@ -497,7 +497,7 @@ The CSS
 ```css
 word-wrap: normal;
 ```
-*Keywords:* `normal`, `break-word`
+*Keywords*: `normal`, `break-word`
 
 
 **Linear gradient**
@@ -526,13 +526,13 @@ Default is an ellipse filling the selector
 ```css
 background-size: 100px 100px;
 ```
-*Keywords:* `width and height`, `contain`, `cover`
+*Keywords*: `width and height`, `contain`, `cover`
 
 **Background clip**
 ```css
 background-clip: border-box;
 ```
-*Keywords:*
+*Keywords*:
 - `border-box` - (default) the background is painted to the outside edge of the border  
 - `padding-box` - the background is painted to the outside edge of the padding  
 - `content-box` - the background is painted within the content box  
@@ -553,9 +553,9 @@ opacity: 1;
 ```css
 transition: background-color 5s ease-in;
 ```
-*parameters:* `transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`  
+*parameters*: `transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`  
 
-*`Timing-function` keywords:* `ease`, `ease-in`, `ease-out`, `ease-in-out`, `linear`, `cubic-bezier(n,n,n,n)`;  
+*`Timing-function` keywords*: `ease`, `ease-in`, `ease-out`, `ease-in-out`, `linear`, `cubic-bezier(n,n,n,n)`;  
 
 **Transforms**
 ```css
@@ -593,14 +593,14 @@ or
 }
 ```
 
-*`animation-iteration-count`:* repeats the animation. The keyword can be `infinite`  
-*`animation-direction` keywords:* `normal`, `reverse`, `alternate`, `alternate reverse`
+*`animation-iteration-count`*: repeats the animation. The keyword can be `infinite`  
+*`animation-direction` keywords*: `normal`, `reverse`, `alternate`, `alternate reverse`
 
 or
 ```css
 animation: colorchange 3s ease-in 1s infinite reverse;
 ```
-*order:* `name duration time-function delay iteration-count direction`
+*order*: `name duration time-function delay iteration-count direction`
 
 **3D transforms**
 ```css

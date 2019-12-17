@@ -69,7 +69,7 @@ if __name__ == "__main__":
 之后。
 
 #### Package
-将一类模块放入文件夹，并加入一个空文件 `__init__.py`，则这个文件夹就被称为package。
+将一类模块放入文件夹，并加入一个空文件 `__init__.py`，则这个文件夹就被称为 package。
 
 假设将上述 `database.py` 放入 `ecommerce` 中，则可有以下引用：
 ```python
@@ -94,7 +94,7 @@ from ..database import Database # 当前文件在被引部分的同级文件夹�
 ...
 ```
 
-在 `__init__.py` 中亦可引用。则在引用到此模块时自动可以执行其中的import。
+在 `__init__.py` 中亦可引用。则在引用到此模块时自动可以执行其中的 `import`。
 
 #### 变量封装
 Python 没有变量访问权限机制。
