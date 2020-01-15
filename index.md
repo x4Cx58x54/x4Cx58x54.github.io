@@ -38,11 +38,6 @@ title: Home
 [Computer Organization](notes/computer-organization/computer-organization)
 
 
-### Computer Network
-
-[Computer Networking: A Top Down Approach](/notes/computer-network/computer-networking-a-top-down-approach)
-
-
 ### Control Theory
 
 [Classical Control](/notes/control-theory/classical-control/classical-control)

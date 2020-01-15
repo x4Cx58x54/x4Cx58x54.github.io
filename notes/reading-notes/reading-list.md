@@ -54,7 +54,7 @@ Stephen Prata
 ### MATLAB Primer
 >R2019a, Digital  
 2019, MathWorks, [mathworks.com/help/pdf_doc/matlab/getstart.pdf](http://www.mathworks.com/help/pdf_doc/matlab/getstart.pdf){:target="_blank"}  
-2019.7.21 ~  萍乡
+2019.7.21 ~ 10. 萍乡
 
 ### Deep Learning
 >Ian Goodfellow, Yoshua Bengio, Aaron Courville  
@@ -67,17 +67,18 @@ Stephen Prata
 1999, Addison Wesley, 2016, 人民邮电出版社, 中南大学图书馆  
 2019.8.22 ~ 8.29, 9.17 ~ 9.20, 萍乡, 长沙
 
-### Digital Image Processing Using MATLAB
->Rafael C. Gonzalez, Richard E. Woods, Steven L. Eddins  
-数字图像处理（MATLAB 版）  
-2004, Prentice Hall, 2009, 电子工业出版社, 中南大学出版社  
-2019.9.18 ~  , 长沙
-
 ### Feedback Control of Dynamic Systems
 >Seventh Edition, Global Edition, Digital    
 Gene F. Franklin, J. David Powell, Abbas Emami-Naeini  
 2015, Pearson Education  
-2019.9.22 ~  , 长沙
+2019.9.22 ~ 11., 长沙
+
+### Python 编程从入门到实践
+>Python Crash Course  
+Eric Matthes 著, 袁国忠 译  
+2016, No Starch Press, 2016 人民邮电出版社  
+Digital  
+2020.1.13 ~ 1.14 , 萍乡
 
 ### 机器学习
 >周志华  
@@ -89,8 +90,3 @@ Gene F. Franklin, J. David Powell, Abbas Emami-Naeini
 学习 R 语言  
 2013, O'Reilly, 2014, 东南大学出版社, 中南大学图书馆  
 2019.10.2 ~  萍乡
-
-### Computer Networking: A Top-Down Approach  
->Seventh Edition, Digital  
-James F. Kurose, Keith W. Ross  
-2017, Pearson Education Inc.   
