@@ -52,8 +52,6 @@ title: Home
 
 [Network Planning Review](/notes/project-reviews/network-planning-review/network-planning-review)
 
-[B Scan Ultrasonography Analysis Review](/notes/project-reviews/b-ultrasonography-review/b-ultrasonography-review)
-
 
 ### Computer Programming
 
@@ -79,9 +77,9 @@ title: Home
 
 ### $\LaTeX$
 
-[LaTeX Cheatsheet](notes\LaTeX\latex-cheatsheet)
+[LaTeX Cheatsheet](notes\latex\latex-cheatsheet)
 
-[LaTeX Maths](notes\LaTeX\latex-maths)
+[LaTeX Maths](notes\latex\latex-maths)
 
 
 ### HTML + CSS + Javascript

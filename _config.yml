@@ -3,6 +3,6 @@ theme: jekyll-theme-cayman
 defaults:
   -
     scope:
-      path: "" 
+      path: ""
     values:
       layout: "default"

@@ -104,4 +104,4 @@ Eg. : `Regular (?=Expressions)`
 
 ## Regex in Vim
 
-Type '`/`'+ regex. 
+Type '`/`'+ regex.

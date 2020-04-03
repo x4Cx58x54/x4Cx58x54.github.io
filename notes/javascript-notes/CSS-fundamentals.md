@@ -612,4 +612,3 @@ transform: translateX(29px)
 perspective: 100px;
 ```
 `perspective` indicates the distance from the object
-

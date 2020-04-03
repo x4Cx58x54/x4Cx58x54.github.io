@@ -467,14 +467,14 @@ Different language often take significantly different numbers of characters to s
 
 ***Simplicity*** and ***clarity*** are first and most important. Do the simplest thing that works. Don't complicate them unless performance measurements show that more engineering is necessary. Interfaces should be clean and spare, at least until there is compelling evidence that the benefits outweigh the added complexity.
 
-***Generality*** often goes hand in hand with simplicity, and is often the right approach to possibility as well: find the single general solution that works on each system, instead of magnifying the differences. 
+***Generality*** often goes hand in hand with simplicity, and is often the right approach to possibility as well: find the single general solution that works on each system, instead of magnifying the differences.
 
-***Evolution*** comes next. It is not possible to create a perfect program the first time. A cycle of prototyping experiment, user feedback and further refinement is most effective. 
+***Evolution*** comes next. It is not possible to create a perfect program the first time. A cycle of prototyping experiment, user feedback and further refinement is most effective.
 
 ***Interfaces*** should be consistent and easy to learn and use. Abstraction is an effective technique: imagine a perfect component or library or program; make the interface match that ideal as closely as possible; hide implementation details behind boundary.
 
-***Automation*** is under-appreciated. It is much more effective to have a computer do your work than to do it by hand, for example in testing, in debugging session, in performance analysis and notably in writing code. 
+***Automation*** is under-appreciated. It is much more effective to have a computer do your work than to do it by hand, for example in testing, in debugging session, in performance analysis and notably in writing code.
 
-***Notation*** is also under-appreciated. It provides an organizing framework for implementing a wide range of tools and also guides the structure of the programs that write programs. Regular expressions of one of the best examples and there are countless opportunities to create little languages for specialized applications. 
+***Notation*** is also under-appreciated. It provides an organizing framework for implementing a wide range of tools and also guides the structure of the programs that write programs. Regular expressions of one of the best examples and there are countless opportunities to create little languages for specialized applications.
 
-We hope that these ideas has given you something that will make your code easier to work with, your debugging sessions less painful, your programming more confident, and your computing more productive and more rewarding. 
+We hope that these ideas has given you something that will make your code easier to work with, your debugging sessions less painful, your programming more confident, and your computing more productive and more rewarding.

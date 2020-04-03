@@ -25,4 +25,4 @@ title: Induction
 *5*  
 **14-22** 使电容器 $C$ 在电源 $\mathscr{E}$ 中充电后立即接至线圈 $L$ 上. （1）求 $L$ 中最大电流；（2）求电路能量均分与电容与电感上的时刻.  
 ->  
-<img class="ansimg" src="assets/030-induction-05-1.jpg" /> 
+<img class="ansimg" src="assets/030-induction-05-1.jpg" />
