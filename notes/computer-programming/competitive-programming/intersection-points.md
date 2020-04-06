@@ -22,7 +22,7 @@ int main(void)
     std::set<int> cross[26];
     std::set<int>::iterator it;
     cross[1].insert(0);
-    scanf("%d" , &n);
+    scanf("%d", &n);
     for(int i = 2; i <= n; i++)
     {
         cross[i].insert(0);
