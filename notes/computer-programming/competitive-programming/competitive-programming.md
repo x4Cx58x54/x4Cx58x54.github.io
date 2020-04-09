@@ -10,7 +10,7 @@ title: Competitive Programming
 
 [找筷子](/notes/computer-programming/competitive-programming/chopsticks){:target="_blank"}
 
-[快速幂](/notes/computer-programming/competitive-programming/fast-power){:target="_blank"}
+[快速幂](/notes/computer-programming/competitive-programming/binexp){:target="_blank"}
 
 [线性筛素数](/notes/computer-programming/competitive-programming/linear-sieve){:target="_blank"}
 
