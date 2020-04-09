@@ -12,6 +12,8 @@ title: Competitive Programming
 
 [快速幂](/notes/computer-programming/competitive-programming/binexp){:target="_blank"}
 
+[组合数](/notes/computer-programming/competitive-programming/combination){:target="_blank"}
+
 [线性筛素数](/notes/computer-programming/competitive-programming/linear-sieve){:target="_blank"}
 
 [Number of trailing zeros of N!](/notes/computer-programming/competitive-programming/number-of-trailing-zeros-of-n!){:target="_blank"}
