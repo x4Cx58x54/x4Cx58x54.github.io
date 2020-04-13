@@ -6,15 +6,17 @@ title: Competitive Programming
 
 ### Mathematics
 
-[Double Cola](/notes/computer-programming/competitive-programming/double-cola){:target="_blank"}
-
-[找筷子](/notes/computer-programming/competitive-programming/chopsticks){:target="_blank"}
-
 [快速幂](/notes/computer-programming/competitive-programming/binexp){:target="_blank"}
 
 [组合数](/notes/computer-programming/competitive-programming/combination){:target="_blank"}
 
+[同余方程、裴蜀定理与扩展欧几里得算法](/notes/computer-programming/competitive-programming/exgcd){:target="_blank"}
+
 [线性筛素数](/notes/computer-programming/competitive-programming/linear-sieve){:target="_blank"}
+
+[找筷子](/notes/computer-programming/competitive-programming/chopsticks){:target="_blank"}
+
+[Double Cola](/notes/computer-programming/competitive-programming/double-cola){:target="_blank"}
 
 [Number of trailing zeros of N!](/notes/computer-programming/competitive-programming/number-of-trailing-zeros-of-n!){:target="_blank"}
 
@@ -27,6 +29,8 @@ title: Competitive Programming
 [堆](/notes/computer-programming/competitive-programming/heap){:target="_blank"}
 
 [并查集](/notes/computer-programming/competitive-programming/ufds){:target="_blank"}
+
+[树状数组](/notes/computer-programming/competitive-programming/fenwick){:target="_blank"}
 
 ### Recursion
 

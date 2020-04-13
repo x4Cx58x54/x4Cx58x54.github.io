@@ -18,6 +18,8 @@ $$
 
 若不保证满足上面两式，则需要使用 Lucas 定理进行转化：
 
+[卢卡斯定理 - 洛谷](https://www.luogu.com.cn/problem/P3807){:target="_blank"}
+
 Lucas 定理：
 
 > 当 $p$ 为素数时，
