@@ -12,7 +12,9 @@ title: Competitive Programming
 
 [同余方程、裴蜀定理与扩展欧几里得算法](/notes/computer-programming/competitive-programming/exgcd){:target="_blank"}
 
-[线性筛素数](/notes/computer-programming/competitive-programming/linear-sieve){:target="_blank"}
+[素数](/notes/computer-programming/competitive-programming/prime){:target="_blank"}
+
+[类斐波那契数列](/notes/computer-programming/competitive-programming/fibonacci){:target="_blank"}
 
 [拉格朗日插值](/notes/computer-programming/competitive-programming/lagrange-interpolation){:target="_blank"}
 

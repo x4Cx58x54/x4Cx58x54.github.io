@@ -16,3 +16,7 @@ long zeros(long n) {
     return ans;
 }
 ```
+
+[阶乘之乘 - 洛谷](https://www.luogu.com.cn/problem/P2388){:target="_blank"}
+
+求 $\sum_{i=1}^n i!$ 末尾的零数可以使用同样的思想，但是在计算因子 5 时应横向统计而非前面使用的纵向统计。

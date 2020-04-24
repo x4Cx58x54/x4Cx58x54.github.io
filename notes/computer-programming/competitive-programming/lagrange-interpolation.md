@@ -6,7 +6,7 @@ title: Lagrange Interpolation
 
 本文原载于 [OI-wiki](https://oi-wiki.org/math/poly/lagrange/)，此处节录本人修改部分。
 
-[拉格朗日插值 - 洛谷](https://www.luogu.com.cn/problem/P4781)
+[拉格朗日插值 - 洛谷](https://www.luogu.com.cn/problem/P4781){:target="_blank"}
 
 给出 $n$ 个点 $P_i(x_i,y_i)$ ，将过这 $n$ 个点的最多 $n-1$ 次的多项式记为 $f(x)$ ，求 $f(k)$ 的值。
 

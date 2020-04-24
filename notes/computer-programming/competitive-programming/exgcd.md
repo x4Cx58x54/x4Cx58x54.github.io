@@ -8,25 +8,25 @@ title: Extended Euclidean Algorithm, Bézout's Lemma and Linear Congruence Equat
 
 > 对任意 $a, b \in \mathbb{Z}$，关于 $x$ 和 $y$ 的不定方程 $ax+by=c$ 有整数解当且仅当 $c$ 是 $\gcd(a,b)$ 的整数倍。
 
-故求解上述不定方程 $ax+by=c$ 时，只要首先求出 $ax+by = \gcd(a, b)$ 的一组解 $x_0, y_0$，若 $c = k\gcd(a, b)$，则 $x = kx_0,\ y = ky_0$ 即为原方程的一组解。
+故求解上述不定方程 $ax+by=c$ 时，只要首先求出 $ax+by = \gcd(a, b)$ 的一组解 $x_0, y_0$，若 $c = k_0\gcd(a, b)$，则 $x = k_0x_0,\ y = k_0y_0$ 即为原方程的一组解（特解)。
 
-下面求方程的通解。设 $a(kx_0+p)+b(ky_0-q) = c$，可得 $ap = bq$，即
+下面求方程的通解。设整数 $p, q$ 满足 $a(k_0x_0+p)+b(k_0y_0-q) = c$，可得 $ap = bq$，即 $p$ 与 $a$ 相乘得到 $b$ 的整数倍，同时它又是 $a$ 的整数倍，由此有
 
 $$
-p = k'\cdot\cfrac{\operatorname{lcm}(a, b)}{a} = k'\cdot\cfrac{b}{\gcd(a, b)},\\
-q = k'\cdot\cfrac{\operatorname{lcm}(a, b)}{b} = k'\cdot\cfrac{a}{\gcd(a, b)},
+p = k\cdot\cfrac{\operatorname{lcm}(a, b)}{a} = k\cdot\cfrac{b}{\gcd(a, b)},\\
+q = k\cdot\cfrac{\operatorname{lcm}(a, b)}{b} = k\cdot\cfrac{a}{\gcd(a, b)},
 $$
 
 故通解为
 
 $$
 \begin{cases}
-x = kx_0 + k'\cdot\cfrac{b}{\gcd(a, b)},\\
-y = ky_0 + k'\cdot\cfrac{a}{\gcd(a, b)}.
-\end{cases}
+x = \cfrac{c \cdot x_0}{\gcd(a, b)} + k\cdot\cfrac{b}{\gcd(a, b)}\\
+y = \cfrac{c \cdot y_0}{\gcd(a, b)} - k\cdot\cfrac{a}{\gcd(a, b)}
+\end{cases},\quad k \in \mathbb{Z}
 $$
 
-特别地，$a, b$ 互质时 $x = kx_0 + k' b,\ y = ky_0 + k' a$ .
+特别地，$a, b$ 互质时 $x = \dfrac{c \cdot x_0}{\gcd(a, b)} + kb,\ y = \dfrac{c \cdot y_0}{\gcd(a, b)} + ka$ .
 
 如何求出特解 $x_0, y_0$ 呢？
 
@@ -45,7 +45,7 @@ $$
 $$
 \begin{aligned}
 ax_1 + by_1 &= bx_2 + \left(a - b\left\lfloor\frac{a}{b}\right\rfloor\right)y_2,\\
-ax_1 + by_1 &= ay_2 + b \left(x_2 - \left\lfloor\frac{a}{b}\right\rfloor y_2\right)
+&= ay_2 + b \left(x_2 - \left\lfloor\frac{a}{b}\right\rfloor y_2\right)
 \end{aligned}
 $$
 
@@ -79,7 +79,7 @@ int exgcd(int a, int b, int& x, int& y)
 
 不定方程 $ax + by = c$ 和线性同余方程 $ax \equiv c \pmod b$ 是等价的。
 
-[同余方程 - 洛谷](https://www.luogu.com.cn/problem/P1082)
+[同余方程 - 洛谷](https://www.luogu.com.cn/problem/P1082){:target="_blank"}
 
 要求 $ax\equiv 1 \pmod b$ 的最小正整数解，只需要先求出一个特解，再根据通解 $x = x_0 + k' b$ 计算最小的正整数解即可。
 
