@@ -28,6 +28,8 @@ title: Competitive Programming
 
 [快速排序 / 第 k 小的数](/notes/computer-programming/competitive-programming/quicksort){:target="_blank"}
 
+[平面最近点对](/notes/computer-programming/competitive-programming/nearest-point-pair){:target="_blank"}
+
 ### Basic Datastructures
 
 [堆](/notes/computer-programming/competitive-programming/heap){:target="_blank"}
