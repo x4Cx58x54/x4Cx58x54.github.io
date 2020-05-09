@@ -18,6 +18,8 @@ title: Competitive Programming
 
 [拉格朗日插值](/notes/computer-programming/competitive-programming/lagrange-interpolation){:target="_blank"}
 
+[最小公倍数逆问题](/notes/computer-programming/competitive-programming/gcd-inverse){:target="_blank"}
+
 [找筷子](/notes/computer-programming/competitive-programming/chopsticks){:target="_blank"}
 
 [Double Cola](/notes/computer-programming/competitive-programming/double-cola){:target="_blank"}
