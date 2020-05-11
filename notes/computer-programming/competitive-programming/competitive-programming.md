@@ -52,6 +52,8 @@ title: Competitive Programming
 
 [最长上升子序列](/notes/computer-programming/competitive-programming/lis){:target="_blank"}
 
+[公共子串数](/notes/computer-programming/competitive-programming/number-of-common-substrings){:target="_blank"}
+
 ### Misc
 
 [字母编码](/notes/computer-programming/competitive-programming/alphabetical-coding){:target="_blank"}
