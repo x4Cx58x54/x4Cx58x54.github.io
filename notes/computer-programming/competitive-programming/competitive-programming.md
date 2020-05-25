@@ -32,13 +32,15 @@ title: Competitive Programming
 
 [平面最近点对](/notes/computer-programming/competitive-programming/nearest-point-pair){:target="_blank"}
 
-### Basic Datastructures
+### Basic Data Structures
 
 [堆](/notes/computer-programming/competitive-programming/heap){:target="_blank"}
 
 [并查集](/notes/computer-programming/competitive-programming/ufds){:target="_blank"}
 
 [树状数组](/notes/computer-programming/competitive-programming/fenwick){:target="_blank"}
+
+[ST 表](/notes/computer-programming/competitive-programming/sparse-table){:target="_blank"}
 
 ### Recursion
 
