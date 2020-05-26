@@ -42,6 +42,8 @@ title: Competitive Programming
 
 [ST 表](/notes/computer-programming/competitive-programming/sparse-table){:target="_blank"}
 
+[线段树](/notes/computer-programming/competitive-programming/segment-tree){:target="_blank"}
+
 ### Recursion
 
 [Josephus Survivor](/notes/computer-programming/competitive-programming/josephus-survivor){:target="_blank"}
